@@ -41,6 +41,3 @@ format:
 comments:
   giscus:
     repo: raagzz/raagzz.github.io
-
-execute:
-  freeze: auto
