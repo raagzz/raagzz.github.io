@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Posts",
-    "section": "",
-    "text": "blog post title\n\n\n\nTest\n\n\nBlog\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nRaaghav P\n\n\nApr 12, 2025\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome!",
@@ -19,6 +12,13 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "blog post title\n\n\n\nTest\n\n\nBlog\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nRaaghav P\n\n\nApr 12, 2025\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "posts/2024-12-16-trial-post/index.html",
