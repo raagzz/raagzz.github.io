@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Raaghav’s Blog</title>
+<title>About Me – Raaghav’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,10 +35,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d6280b4440b4d98d1bd2c3fb1afaba3c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a7f398a336ce1695de661195cbda7ca0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-092bfe7db9c3aa36676e190399c5784b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -120,6 +151,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -128,15 +160,30 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#raaghav-pohutezhini" id="toc-raaghav-pohutezhini" class="nav-link active" data-scroll-target="#raaghav-pohutezhini"><strong>Raaghav Pohutezhini</strong></a>
+  <ul class="collapse">
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
+  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
+  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
+  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link" data-scroll-target="#technical-skills">Technical Skills</a></li>
+  <li><a href="#extra-curriculars" id="toc-extra-curriculars" class="nav-link" data-scroll-target="#extra-curriculars">Extra-Curriculars</a></li>
+  <li><a href="#certifications" id="toc-certifications" class="nav-link" data-scroll-target="#certifications">Certifications</a></li>
+  <li><a href="#honors-and-awards" id="toc-honors-and-awards" class="nav-link" data-scroll-target="#honors-and-awards">Honors and Awards</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">About Me</h1>
 </div>
 
 
@@ -153,9 +200,93 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<section id="raaghav-pohutezhini" class="level1">
+<h1><strong>Raaghav Pohutezhini</strong></h1>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<ul>
+<li><strong>Shiv Nadar University Chennai</strong> &nbsp; | &nbsp; <em>CGPA: 9.72</em> &nbsp; | &nbsp; <em>2021 – Present</em> <br> <em>Bachelor of Technology in Artificial Intelligence and Data Science</em></li>
+</ul>
+</section>
+<section id="experience" class="level2">
+<h2 class="anchored" data-anchor-id="experience">Experience</h2>
+<p><strong>Ford Motor Company</strong> &nbsp; | &nbsp; <em>Data Science Intern</em> &nbsp; | &nbsp; <em>May 2024 – Jul 2024</em> <br></p>
+<ul>
+<li><strong>Statistical Modelling</strong>: Implemented <em>OLS Regression</em> for predicting the annual merit increase for each market using <em>Statsmodels</em> library with adjusted <span class="math inline">\(R^2\)</span> Score as <em>0.85</em>.</li>
+<li><strong>Model Interpretability</strong>: Utilized <em>XGBoost</em> in the predictions and <em>SHAPley</em> <em>values</em> to interpret the feature importance, improving the explainability of decisions in fixing the merit increase.</li>
+<li><strong>Dashboard and Deployment</strong>: Streamlined the process with a <em>end-to-end pipeline</em> and a dashboard in <em>Streamlit</em>, eliminating the manual dashboard creating time by <em>100%</em>.</li>
+<li><strong>Reduced Human Dependence</strong>: Quantified the decisions in setting merit increase with our model as a supporting document, cutting down <em>1 - 2 weeks</em> of manual analysis and decision-making every year.</li>
+</ul>
+</section>
+<section id="projects" class="level2">
+<h2 class="anchored" data-anchor-id="projects">Projects</h2>
+<p><strong><a href="https://github.com/MuthuPalaniappan925/ParaSCI---Llama">Paraphrase Identification and Generation</a></strong></p>
+<ul>
+<li><strong>Embedding Techniques</strong>: Generated embeddings using <em>Word2Vec</em>, <em>GloVe</em> and <em>FastText</em> with FastText performing better at identifying paraphrases with average <em>cosine similarity</em> score of <em>0.88</em>.</li>
+<li><strong>LLM Finetuning and Quantization</strong>: Finetuned <em>T5</em> and <em>Llama-2</em> on a scientific paraphrases dataset to generate paraphrases and performed 4-bit quantization on Llama-2 using <em>QLoRA.</em></li>
+</ul>
+<p><strong><a href="https://github.com/raagzz/jewelry-images-similarity-search">Jewel ID: Similarity Search for Jewelry Images</a></strong></p>
+<ul>
+<li><strong>Feature Extraction</strong>: Extracted features using <em>ViT-base</em> model and stored them in <em>FAISS</em> vector store, implementing two different indexing strategies.</li>
+<li><strong>Retrieval Optimization</strong>: Optimized image retrieval using a Product Quantization (PQ) index that resulted in <em>97.1% memory reduction</em> and <em>36.2% speed-up</em> than regular flat indexing.</li>
+<li><strong>Explanability</strong>: Visualized the attention map of the query image to learn where ViT model focuses on, improving the <em>explainability</em> of the model.</li>
+</ul>
+<p><strong><a href="https://github.com/raagzz/design-and-analysis-of-algorithms">Weights Optimization using Evolutionary Algorithms</a></strong></p>
+<ul>
+<li><strong>Evolutionary Algorithms</strong>: Utilized <em>Genetic, Cultural Algorithms</em> instead of Gradient Descent to optimize the network’s weights, achieving <em>0.88</em> and <em>0.9 accuracy</em> respectively.</li>
+<li><strong>Swarm Intelligence Algorithms</strong>: Developed <em>Particle Swarm (PSO)</em> and a modified <em>Ant Colony Optimization (ACO)</em> for this continuous-domain optimization problem, obtaining a <em>better accuracy of 0.93</em> for both.</li>
+</ul>
+<p><strong><a href="https://github.com/raagzz/intro-to-IoT">Analysis on Air Pollution Monitoring IoT Sensor Data</a></strong></p>
+<ul>
+<li><strong>Outlier Detection</strong>: Used <em>DBSCAN</em> to find the outliers in the data and visualized them.</li>
+<li><strong>Model Building</strong>: Built a <em>LSTM</em> model for forecasting various features like Temperature, Particulate Matter etc.</li>
+</ul>
+<p><strong><a href="https://github.com/raagzz/sum-it">SUM-IT: Video Transcription and Summarizing Tool</a></strong></p>
+<ul>
+<li><strong>Audio Transcription</strong>: Used OpenAI’s ASR model, <em>Whisper-Turbo</em> to transcribe videos with minimal <em>WER (Word Error Rate) of 3.5</em> and BART to summarize the transcriptions achieving a <em>ROUGE-1 Score of 0.44.</em></li>
+<li><strong>Accessibility and Deployment</strong>: Added accessibilty for the visually impaired by adding voice summary using Google’s <em>Text-To-Speech</em> and deployed using <em>Streamlit</em>, with inference time under <em>1 minute</em> in a CPU.</li>
+</ul>
+</section>
+<section id="technical-skills" class="level2">
+<h2 class="anchored" data-anchor-id="technical-skills">Technical Skills</h2>
+<ul>
+<li><strong>Languages</strong>: Python, SQL, R, C, Java, Javascript</li>
+<li><strong>Libraries</strong>: Pandas, Numpy, Scikit-Learn, Tensorflow, Keras, PyTorch, Langchain, LlamaIndex, Flask, Streamlit</li>
+<li><strong>Tools</strong>: Hadoop, Spark, Excel, Tableau, AWS, Git</li>
+</ul>
+</section>
+<section id="extra-curriculars" class="level2">
+<h2 class="anchored" data-anchor-id="extra-curriculars">Extra-Curriculars</h2>
+<p><strong>Domain Head, Machine Learning</strong> &nbsp; | &nbsp; <em>SNU Chennai Coding Club</em> &nbsp; | &nbsp; <em>Sep 23 - Present</em> <br></p>
+<ul>
+<li><strong>Bootcamp Organizer</strong>: Arranged a <em>7-day NLP</em> bootcamp for our students’ interview preparation, amassing 50+ participants.</li>
+</ul>
+</section>
+<section id="certifications" class="level2">
+<h2 class="anchored" data-anchor-id="certifications">Certifications</h2>
+<ul>
+<li><strong><a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS126S53350058220313507">Deep Learning for Computer Vision</a></strong>: <em>NPTEL</em></li>
+<li><strong><a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS40S3434008603093225">Introduction To Soft Computing</a></strong>: <em>NPTEL</em></li>
+<li><strong><a href="https://coursera.org/verify/specialization/ZB58JEM5V7QC">Machine Learning Specialization</a></strong>: <em>Coursera</em></li>
+<li><strong><a href="https://coursera.org/verify/professional-cert/ZTXUEUEP3Z65">UX Design Specialization</a></strong>: <em>Google</em></li>
+</ul>
+</section>
+<section id="honors-and-awards" class="level2">
+<h2 class="anchored" data-anchor-id="honors-and-awards">Honors and Awards</h2>
+<ul>
+<li><strong>Merit Scholarship</strong>: Awarded <em>Scholarship</em> for academic excellence for <em>2nd Year</em> and <em>3rd Year</em> from Shiv Nadar University Chennai.</li>
+<li><strong>NPTEL Topper</strong>: Secured <em>AIR 1</em> in
+<ul>
+<li><em>Deep Learning for Computer Vision</em></li>
+<li><em>Introduction to Soft Computing.</em></li>
+<li><em>Advanced R Programming for Data Analytics in Business</em></li>
+</ul></li>
+<li><strong>Hackathon Winner</strong>: Emerged as the <em>Winner</em> of the Hackathon conducted by <em>AInsurTech.</em></li>
+</ul>
 
 
+</section>
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -178,6 +309,150 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -583,8 +858,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright 2024, Raaghav P</p>
-</div>   
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ Copyright 2024, Raaghav P. Built using
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://quarto.org/">
+<p>Quarto.</p>
+</a>
+  </li>  
+</ul>
+    </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>

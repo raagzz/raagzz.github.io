@@ -2,16 +2,86 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome!",
+    "title": "Raaghav’s Blog",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n Back to top"
+    "text": "I’m Raaghav, a final-year undergraduate student specializing in Artificial Intelligence (AI) and Data Science at Shiv Nadar University Chennai.\nThis space is where I share my journey into data science and AI, break down complex concepts into intuitive tutorials, and showcase my projects.\nAlso, I’m seeking internship or full-time new grad opportunities as a Data Scientist or ML Engineer. I’m passionate about solving real-world problems through data-driven insights and automating time-consuming processes using AI agents. So feel free to hit me up using the links below!"
+  },
+  {
+    "objectID": "index.html#hello-there",
+    "href": "index.html#hello-there",
+    "title": "Raaghav’s Blog",
+    "section": "",
+    "text": "I’m Raaghav, a final-year undergraduate student specializing in Artificial Intelligence (AI) and Data Science at Shiv Nadar University Chennai.\nThis space is where I share my journey into data science and AI, break down complex concepts into intuitive tutorials, and showcase my projects.\nAlso, I’m seeking internship or full-time new grad opportunities as a Data Scientist or ML Engineer. I’m passionate about solving real-world problems through data-driven insights and automating time-consuming processes using AI agents. So feel free to hit me up using the links below!"
+  },
+  {
+    "objectID": "index.html#explore-the-website",
+    "href": "index.html#explore-the-website",
+    "title": "Raaghav’s Blog",
+    "section": "Explore the Website",
+    "text": "Explore the Website\n\nAbout Me: Learn more about my academic background, skills, and interests.\n\nMy Blogs: Dive into my thoughts and writings on AI, data science, and technology."
+  },
+  {
+    "objectID": "index.html#contact-me",
+    "href": "index.html#contact-me",
+    "title": "Raaghav’s Blog",
+    "section": "Contact Me",
+    "text": "Contact Me\nFeel free to reach out to me!\n\nEmail: raaghav1003@gmail.com\nLinkedIn: Raaghav Pohutezhini\n\nGitHub: raagzz\n\nThanks for visiting! I hope you find something insightful here."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site\n\n\n\n Back to top"
+    "text": "Shiv Nadar University Chennai   |   CGPA: 9.72   |   2021 – Present  Bachelor of Technology in Artificial Intelligence and Data Science\n\n\n\n\nFord Motor Company   |   Data Science Intern   |   May 2024 – Jul 2024 \n\nStatistical Modelling: Implemented OLS Regression for predicting the annual merit increase for each market using Statsmodels library with adjusted \\(R^2\\) Score as 0.85.\nModel Interpretability: Utilized XGBoost in the predictions and SHAPley values to interpret the feature importance, improving the explainability of decisions in fixing the merit increase.\nDashboard and Deployment: Streamlined the process with a end-to-end pipeline and a dashboard in Streamlit, eliminating the manual dashboard creating time by 100%.\nReduced Human Dependence: Quantified the decisions in setting merit increase with our model as a supporting document, cutting down 1 - 2 weeks of manual analysis and decision-making every year.\n\n\n\n\nParaphrase Identification and Generation\n\nEmbedding Techniques: Generated embeddings using Word2Vec, GloVe and FastText with FastText performing better at identifying paraphrases with average cosine similarity score of 0.88.\nLLM Finetuning and Quantization: Finetuned T5 and Llama-2 on a scientific paraphrases dataset to generate paraphrases and performed 4-bit quantization on Llama-2 using QLoRA.\n\nJewel ID: Similarity Search for Jewelry Images\n\nFeature Extraction: Extracted features using ViT-base model and stored them in FAISS vector store, implementing two different indexing strategies.\nRetrieval Optimization: Optimized image retrieval using a Product Quantization (PQ) index that resulted in 97.1% memory reduction and 36.2% speed-up than regular flat indexing.\nExplanability: Visualized the attention map of the query image to learn where ViT model focuses on, improving the explainability of the model.\n\nWeights Optimization using Evolutionary Algorithms\n\nEvolutionary Algorithms: Utilized Genetic, Cultural Algorithms instead of Gradient Descent to optimize the network’s weights, achieving 0.88 and 0.9 accuracy respectively.\nSwarm Intelligence Algorithms: Developed Particle Swarm (PSO) and a modified Ant Colony Optimization (ACO) for this continuous-domain optimization problem, obtaining a better accuracy of 0.93 for both.\n\nAnalysis on Air Pollution Monitoring IoT Sensor Data\n\nOutlier Detection: Used DBSCAN to find the outliers in the data and visualized them.\nModel Building: Built a LSTM model for forecasting various features like Temperature, Particulate Matter etc.\n\nSUM-IT: Video Transcription and Summarizing Tool\n\nAudio Transcription: Used OpenAI’s ASR model, Whisper-Turbo to transcribe videos with minimal WER (Word Error Rate) of 3.5 and BART to summarize the transcriptions achieving a ROUGE-1 Score of 0.44.\nAccessibility and Deployment: Added accessibilty for the visually impaired by adding voice summary using Google’s Text-To-Speech and deployed using Streamlit, with inference time under 1 minute in a CPU.\n\n\n\n\n\nLanguages: Python, SQL, R, C, Java, Javascript\nLibraries: Pandas, Numpy, Scikit-Learn, Tensorflow, Keras, PyTorch, Langchain, LlamaIndex, Flask, Streamlit\nTools: Hadoop, Spark, Excel, Tableau, AWS, Git\n\n\n\n\nDomain Head, Machine Learning   |   SNU Chennai Coding Club   |   Sep 23 - Present \n\nBootcamp Organizer: Arranged a 7-day NLP bootcamp for our students’ interview preparation, amassing 50+ participants.\n\n\n\n\n\nDeep Learning for Computer Vision: NPTEL\nIntroduction To Soft Computing: NPTEL\nMachine Learning Specialization: Coursera\nUX Design Specialization: Google\n\n\n\n\n\nMerit Scholarship: Awarded Scholarship for academic excellence for 2nd Year and 3rd Year from Shiv Nadar University Chennai.\nNPTEL Topper: Secured AIR 1 in\n\nDeep Learning for Computer Vision\nIntroduction to Soft Computing.\nAdvanced R Programming for Data Analytics in Business\n\nHackathon Winner: Emerged as the Winner of the Hackathon conducted by AInsurTech."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "",
+    "text": "Shiv Nadar University Chennai   |   CGPA: 9.72   |   2021 – Present  Bachelor of Technology in Artificial Intelligence and Data Science"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About Me",
+    "section": "",
+    "text": "Ford Motor Company   |   Data Science Intern   |   May 2024 – Jul 2024 \n\nStatistical Modelling: Implemented OLS Regression for predicting the annual merit increase for each market using Statsmodels library with adjusted \\(R^2\\) Score as 0.85.\nModel Interpretability: Utilized XGBoost in the predictions and SHAPley values to interpret the feature importance, improving the explainability of decisions in fixing the merit increase.\nDashboard and Deployment: Streamlined the process with a end-to-end pipeline and a dashboard in Streamlit, eliminating the manual dashboard creating time by 100%.\nReduced Human Dependence: Quantified the decisions in setting merit increase with our model as a supporting document, cutting down 1 - 2 weeks of manual analysis and decision-making every year."
+  },
+  {
+    "objectID": "about.html#projects",
+    "href": "about.html#projects",
+    "title": "About Me",
+    "section": "",
+    "text": "Paraphrase Identification and Generation\n\nEmbedding Techniques: Generated embeddings using Word2Vec, GloVe and FastText with FastText performing better at identifying paraphrases with average cosine similarity score of 0.88.\nLLM Finetuning and Quantization: Finetuned T5 and Llama-2 on a scientific paraphrases dataset to generate paraphrases and performed 4-bit quantization on Llama-2 using QLoRA.\n\nJewel ID: Similarity Search for Jewelry Images\n\nFeature Extraction: Extracted features using ViT-base model and stored them in FAISS vector store, implementing two different indexing strategies.\nRetrieval Optimization: Optimized image retrieval using a Product Quantization (PQ) index that resulted in 97.1% memory reduction and 36.2% speed-up than regular flat indexing.\nExplanability: Visualized the attention map of the query image to learn where ViT model focuses on, improving the explainability of the model.\n\nWeights Optimization using Evolutionary Algorithms\n\nEvolutionary Algorithms: Utilized Genetic, Cultural Algorithms instead of Gradient Descent to optimize the network’s weights, achieving 0.88 and 0.9 accuracy respectively.\nSwarm Intelligence Algorithms: Developed Particle Swarm (PSO) and a modified Ant Colony Optimization (ACO) for this continuous-domain optimization problem, obtaining a better accuracy of 0.93 for both.\n\nAnalysis on Air Pollution Monitoring IoT Sensor Data\n\nOutlier Detection: Used DBSCAN to find the outliers in the data and visualized them.\nModel Building: Built a LSTM model for forecasting various features like Temperature, Particulate Matter etc.\n\nSUM-IT: Video Transcription and Summarizing Tool\n\nAudio Transcription: Used OpenAI’s ASR model, Whisper-Turbo to transcribe videos with minimal WER (Word Error Rate) of 3.5 and BART to summarize the transcriptions achieving a ROUGE-1 Score of 0.44.\nAccessibility and Deployment: Added accessibilty for the visually impaired by adding voice summary using Google’s Text-To-Speech and deployed using Streamlit, with inference time under 1 minute in a CPU."
+  },
+  {
+    "objectID": "about.html#technical-skills",
+    "href": "about.html#technical-skills",
+    "title": "About Me",
+    "section": "",
+    "text": "Languages: Python, SQL, R, C, Java, Javascript\nLibraries: Pandas, Numpy, Scikit-Learn, Tensorflow, Keras, PyTorch, Langchain, LlamaIndex, Flask, Streamlit\nTools: Hadoop, Spark, Excel, Tableau, AWS, Git"
+  },
+  {
+    "objectID": "about.html#extra-curriculars",
+    "href": "about.html#extra-curriculars",
+    "title": "About Me",
+    "section": "",
+    "text": "Domain Head, Machine Learning   |   SNU Chennai Coding Club   |   Sep 23 - Present \n\nBootcamp Organizer: Arranged a 7-day NLP bootcamp for our students’ interview preparation, amassing 50+ participants."
+  },
+  {
+    "objectID": "about.html#certifications",
+    "href": "about.html#certifications",
+    "title": "About Me",
+    "section": "",
+    "text": "Deep Learning for Computer Vision: NPTEL\nIntroduction To Soft Computing: NPTEL\nMachine Learning Specialization: Coursera\nUX Design Specialization: Google"
+  },
+  {
+    "objectID": "about.html#honors-and-awards",
+    "href": "about.html#honors-and-awards",
+    "title": "About Me",
+    "section": "",
+    "text": "Merit Scholarship: Awarded Scholarship for academic excellence for 2nd Year and 3rd Year from Shiv Nadar University Chennai.\nNPTEL Topper: Secured AIR 1 in\n\nDeep Learning for Computer Vision\nIntroduction to Soft Computing.\nAdvanced R Programming for Data Analytics in Business\n\nHackathon Winner: Emerged as the Winner of the Hackathon conducted by AInsurTech."
   },
   {
     "objectID": "posts.html",
