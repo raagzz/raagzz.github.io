@@ -23,7 +23,10 @@ website:
         href: https://www.linkedin.com/in/raaghav-pohutezhini-1954b9225/
 
   page-footer: 
-    left: "Copyright 2024, Raaghav P" 
+    left: 
+      - text: "Copyright 2024, Raaghav P. Built using"
+      - text: "Quarto." 
+        href: https://quarto.org/
     right: 
       - icon: github
         href: https://github.com/raagzz
@@ -34,7 +37,10 @@ website:
 
 format:
   html:
-    theme: cerulean
+    theme: 
+      light: flatly
+      dark: darkly
+    mainfont: inter display
     css: styles.css
     toc: true
 

@@ -1,5 +1,118 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-About this site
+# **Raaghav Pohutezhini**
+
+## Education
+
+- **Shiv Nadar University Chennai** &nbsp; | &nbsp; *CGPA: 9.72* &nbsp; | &nbsp; *2021 -- Present* <br>
+  *Bachelor of Technology in  Artificial Intelligence and Data Science*
+  
+## Experience
+
+**Ford Motor Company** &nbsp; | &nbsp; *Data Science Intern* &nbsp; | &nbsp; *May 2024 -- Jul 2024* <br>
+
+-    **Statistical Modelling**: Implemented *OLS Regression* for
+    predicting the annual merit increase for each market using
+    *Statsmodels* library with adjusted $R^2$ Score as *0.85*.
+-    **Model Interpretability**: Utilized *XGBoost* in the predictions
+    and *SHAPley* *values* to interpret the feature importance,
+    improving the explainability of decisions in fixing the merit
+    increase.
+-    **Dashboard and Deployment**: Streamlined the process with a
+    *end-to-end pipeline* and a dashboard in *Streamlit*, eliminating
+    the manual dashboard creating time by *100%*.
+-    **Reduced Human Dependence**: Quantified the decisions in setting
+    merit increase with our model as a supporting document, cutting down
+    *1 - 2 weeks* of manual analysis and decision-making every year.
+
+## Projects
+
+**[Paraphrase Identification and Generation](https://github.com/MuthuPalaniappan925/ParaSCI---Llama)**
+
+-    **Embedding Techniques**: Generated embeddings using *Word2Vec*,
+    *GloVe* and *FastText* with FastText performing better at
+    identifying paraphrases with average *cosine similarity* score of
+    *0.88*.
+-    **LLM Finetuning and Quantization**: Finetuned *T5* and *Llama-2*
+    on a scientific paraphrases dataset to generate paraphrases and
+    performed 4-bit quantization on Llama-2 using *QLoRA.*
+
+**[Jewel ID: Similarity Search for Jewelry Images](https://github.com/raagzz/jewelry-images-similarity-search)**
+
+-    **Feature Extraction**: Extracted features using *ViT-base* model
+    and stored them in *FAISS* vector store, implementing two different
+    indexing strategies.
+-    **Retrieval Optimization**: Optimized image retrieval using a
+    Product Quantization (PQ) index that resulted in *97.1% memory
+    reduction* and *36.2% speed-up* than regular flat indexing.
+-    **Explanability**: Visualized the attention map of the query image
+    to learn where ViT model focuses on, improving the *explainability*
+    of the model.
+
+
+**[Weights Optimization using Evolutionary Algorithms](https://github.com/raagzz/design-and-analysis-of-algorithms)**
+
+-    **Evolutionary Algorithms**: Utilized *Genetic, Cultural
+    Algorithms* instead of Gradient Descent to optimize the network's
+    weights, achieving *0.88* and *0.9 accuracy* respectively.
+-    **Swarm Intelligence Algorithms**: Developed *Particle Swarm (PSO)*
+    and a modified *Ant Colony Optimization (ACO)* for this
+    continuous-domain optimization problem, obtaining a *better accuracy
+    of 0.93* for both.
+
+**[Analysis on Air Pollution Monitoring IoT Sensor Data](https://github.com/raagzz/intro-to-IoT)**
+
+-    **Outlier Detection**: Used *DBSCAN* to find the outliers in the
+    data and visualized them.
+-    **Model Building**: Built a *LSTM* model for forecasting various
+    features like Temperature, Particulate Matter etc.
+
+**[SUM-IT: Video Transcription and Summarizing Tool](https://github.com/raagzz/sum-it)**
+
+-    **Audio Transcription**: Used OpenAI's ASR model, *Whisper-Turbo*
+    to transcribe videos with minimal *WER (Word Error Rate) of 3.5* and
+    BART to summarize the transcriptions achieving a *ROUGE-1 Score of
+    0.44.*
+-    **Accessibility and Deployment**: Added accessibilty for the
+    visually impaired by adding voice summary using Google's
+    *Text-To-Speech* and deployed using *Streamlit*, with inference time
+    under *1 minute* in a CPU.
+
+## Technical Skills
+
+- **Languages**: Python, SQL, R, C, Java, Javascript
+- **Libraries**: Pandas, Numpy, Scikit-Learn, Tensorflow, Keras, PyTorch,
+Langchain, LlamaIndex, Flask, Streamlit
+- **Tools**: Hadoop, Spark, Excel, Tableau, AWS, Git
+
+## Extra-Curriculars
+
+**Domain Head, Machine Learning** &nbsp; | &nbsp; *SNU Chennai Coding Club* &nbsp; | &nbsp; *Sep 23 - Present* <br>
+
+- **Bootcamp Organizer**: Arranged a *7-day NLP* bootcamp for our
+    students' interview preparation, amassing 50+ participants.
+
+## Certifications
+
+- **[Deep Learning for Computer Vision](https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS126S53350058220313507)**:
+*NPTEL*
+- **[Introduction To Soft Computing](https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS40S3434008603093225)**:
+*NPTEL*
+- **[Machine Learning Specialization](https://coursera.org/verify/specialization/ZB58JEM5V7QC)**:
+*Coursera*
+- **[UX Design Specialization](https://coursera.org/verify/professional-cert/ZTXUEUEP3Z65)**:
+*Google*
+
+## Honors and Awards
+
+- **Merit Scholarship**: Awarded *Scholarship* for academic excellence for
+*2nd Year* and *3rd Year* from Shiv Nadar University Chennai.
+- **NPTEL Topper**: Secured *AIR 1* in 
+    - *Deep Learning for Computer Vision*
+    - *Introduction to Soft Computing.*
+    - *Advanced R Programming for Data Analytics in Business*
+- **Hackathon Winner**: Emerged as the *Winner* of the Hackathon conducted
+by *AInsurTech.*
+

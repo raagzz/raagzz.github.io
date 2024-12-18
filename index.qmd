@@ -1,9 +1,31 @@
 ---
-title: "Welcome!"
+title: "Raaghav's Blog"
+format: html
 ---
 
+## Hello There!
+
+I'm Raaghav, a final-year undergraduate student specializing in **Artificial Intelligence (AI)** and **Data Science** at Shiv Nadar University Chennai.  
+
+This space is where I share my journey into data science and AI, break down complex concepts into intuitive tutorials, and showcase my projects. 
+
+Also, I'm seeking *internship* or *full-time* new grad opportunities as a **Data Scientist** or **ML Engineer**.
+I'm passionate about solving real-world problems through data-driven insights and automating time-consuming processes using AI agents. So feel free to hit me up using the links below!
 
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Explore the Website
+
+- **[About Me](about.qmd)**: Learn more about my academic background, skills, and interests.  
+- **[My Blogs](posts.qmd)**: Dive into my thoughts and writings on AI, data science, and technology.
+
+
+## Contact Me  
+
+Feel free to reach out to me!
+
+- Email: [raaghav1003@gmail.com](mailto:raaghav1003@gmail.com)
+- LinkedIn: [Raaghav Pohutezhini](https://www.linkedin.com/in/raaghav-pohutezhini-1954b9225/)  
+- GitHub: [raagzz](https://github.com/raagzz)
+
+Thanks for visiting! I hope you find something insightful here.
